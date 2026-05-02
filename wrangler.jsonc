@@ -1,0 +1,20 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "humanly-possible-levels-list",
+	"compatibility_date": "2025-10-08",
+	"upload_source_maps": true,
+	"main": "./server.ts",
+	"assets": {
+		"directory": "./build/client"
+	},
+	"compatibility_flags": ["nodejs_compat"],
+	"observability": {
+		"enabled": true
+	},
+	"kv_namespaces": [
+		{
+			"binding": "TO_DO_LIST",
+			"id": "8159b2ae8d4b479b9b0328c977881ca0"
+		}
+	]
+}
